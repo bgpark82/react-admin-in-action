@@ -25,7 +25,7 @@ export const UserList = () => {
                     >
                     </SimpleList>
                 ) : (
-                    <Datagrid rowClick="edit">
+                    <Datagrid rowClick="show">
                         <TextField source="id" />
                         <TextField source="name" />
                         <TextField source="username" />
